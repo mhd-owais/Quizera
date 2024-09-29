@@ -1,0 +1,146 @@
+body{
+    margin: 40px 0px;
+    padding: 0;
+    background-color: #14213d;
+}
+
+.main{
+    background-color: #14213d;
+    width: 100%;
+    height: 100vh;
+}
+
+.backCustom{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.texter{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.cusm{
+    width: 420px;
+    font-weight: 500;    
+}
+.opt11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.outsi{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin: 0px;
+}
+#demos{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.137);
+    color: rgb(120, 243, 237);
+    align-items: center;
+    padding: 5px;
+    height: 40px;
+}
+.butn{
+    /* font-family: monospace; */
+    font-weight: 700;
+}
+.sus{
+    width: 500px;
+}
+
+.score-box{
+    display: none;
+    width: 60%;
+    height: 350px;
+    /* height: 200px; */
+    margin: auto ;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.116);
+    
+    
+}
+.retrybtn{
+    width: 200px;
+    font-weight: 500;  
+}
+.scoreMar{
+    margin: 15px 0;
+}
+.btnMar{
+    margin: 20px 0px;
+}
+@media (width<800px){
+    .score-box{
+        width: 80%;
+        height: 350px;
+    }
+    .retrybtn{
+        width: 300px;
+        
+    }
+    .btnMar{
+        margin: 12px 0px;
+    }
+}
+@media (width<450px){
+    .score-box{
+        width: 80%;
+        height: 370px;
+    }
+    .retrybtn{
+        width: 150px;
+        
+    }
+    .btnMar{
+        margin: 15px 0px;
+    }
+    #demos{
+        height: 60px;
+    }
+}
+@media (width<350px){
+    .score-box{
+        width: 80%;
+        height: 480px;
+    }
+    .retrybtn{
+        width: 120px;
+        
+    }
+    .btnMar{
+        margin: 12px 0px;
+    }
+}
+
+/* =====HOME==== */
+
+.quizes{
+    text-align: center;
+}
+.quizBtner{
+    width: 450px;
+    margin: 20px 0px;
+}
+@media (width<800px){
+    .quizBtner{
+        width: 380px;
+        margin: 20px 0px;
+    }
+}
+@media (width<450px){
+    .quizBtner{
+        width: 290px;
+        margin: 20px 0px;
+    }
+}
+@media (width<350px){
+    .quizBtner{
+        width: 220px;
+        margin: 20px 0px;
+
+    }
+}
+
